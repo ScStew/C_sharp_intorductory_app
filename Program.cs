@@ -13,6 +13,11 @@ namespace C__intro
             string songLyrics = "You say goodbye, and I say hello";
             Console.WriteLine(songLyrics.Contains("goodbye"));
             Console.WriteLine(songLyrics.Contains("greetings"));
+
+            int a = 34;
+            int b = 23;
+            int c = a + b;
+            Console.WriteLine(c);
         }
     }
 }
