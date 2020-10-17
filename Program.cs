@@ -6,7 +6,8 @@ namespace C__intro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string message = "Hello World";
+            Console.WriteLine(message);
         }
     }
 }
