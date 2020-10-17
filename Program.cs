@@ -8,7 +8,7 @@ namespace C__intro
         {
             string message = "Hello";
             string name = "Mike";
-            Console.WriteLine(message + " " + name);
+            Console.WriteLine($"{message} {name}");
         }
     }
 }
