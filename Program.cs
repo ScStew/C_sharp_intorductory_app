@@ -20,6 +20,10 @@ namespace C__intro
             int d = (a + b) / c;
             int e = (a + b) % c;
             Console.WriteLine($"quotient: {d} | remainder: {e}");
+
+            int max = int.MaxValue;
+            int min = int.MinValue;
+            Console.WriteLine($"The range of integers is {min} to {max}");
         }
     }
 }
