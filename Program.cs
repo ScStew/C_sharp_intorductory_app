@@ -14,10 +14,12 @@ namespace C__intro
             Console.WriteLine(songLyrics.Contains("goodbye"));
             Console.WriteLine(songLyrics.Contains("greetings"));
 
-            int a = 34;
-            int b = 23;
-            int c = a + b;
-            Console.WriteLine(c);
+            int a = 7;
+            int b = 4;
+            int c = 3;
+            int d = (a + b) / c;
+            int e = (a + b) % c;
+            Console.WriteLine($"quotient: {d} | remainder: {e}");
         }
     }
 }
