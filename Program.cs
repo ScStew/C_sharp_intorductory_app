@@ -41,6 +41,9 @@ namespace C__intro
             decimal decmin = decimal.MinValue;
             decimal decmax = decimal.MaxValue;
             Console.WriteLine($"The range of the decimal type is {decmin} to {decmax}");
+
+            if (a + b > 10)
+                Console.WriteLine("The answer is greater than 10.");
         }
     }
 }
